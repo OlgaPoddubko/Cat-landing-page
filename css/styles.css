@@ -1,0 +1,169 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+a{
+	text-decoration: none;
+}
+
+/*header*/
+header{
+	background:#cbc7d1;
+
+}
+.header_inner{
+
+	max-width: 1600px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.header_inner ul{
+	list-style-type: none;
+	font-size:0;
+	display: inline-block;
+	float:right;
+	
+}
+
+.header_inner  li{
+	display: inline-block;
+	padding: 10px 20px;
+}
+
+.header_inner  a{
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #301e46;
+}
+
+/*main*/
+
+.About_game, .Controls, .Rules_inner, .footer_inner, .Technologies-inner{
+	width:900px;
+	margin: 0 auto;
+}
+section{
+	padding: 80px 0; 
+}
+h2{
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #301e46;
+	margin-bottom:60px;
+}
+/*slider*/
+.slider{
+	position: relative;
+	text-align: center;
+	background: #301e46;
+}
+.slider img{
+	display: inline-block;
+	margin: 0 auto;
+}
+.button{
+	position: absolute;
+	top: 40%;
+	left: 45%;
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	background: #fff;
+	opacity: .5;
+}
+/*
+.slider a{
+	color: #fff;
+}*/
+.slider span{
+	font-size: 90px;
+	position: absolute;
+	left: 47px;
+	top: 8px;
+}
+.slider h1{
+	font-size: 49px;
+	position: absolute;
+	left: 35%;
+	top: 15%;
+	color: #fff;
+}
+
+
+.Technologies{
+	text-align: center;
+	border-bottom: 2px solid #301e46;
+}
+.Technologies img{
+	
+	margin-left:40px;
+	margin-right:40px;
+}
+
+/*About_game*/
+.About_game{
+	text-align: center;
+
+}
+.About_game p{
+	font-size: 24px;
+}
+/*Rules*/
+.Rules{
+	background:#cbc7d1;
+	text-align: center;
+}
+.Rules_inner img{
+	display: inline-block;
+	width: 354px;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.Rules_inner span{
+	display: inline-block;
+
+	width: 450px;
+	margin-top: 60px;
+
+	font-size: 24px;
+}
+.rs{
+	float: right;
+	text-align: left;
+}
+.ls{
+	float: left;
+	text-align: right;
+}
+.clear{
+	clear: both;
+}
+
+.Rules h3{
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #301e46;
+	margin:40px 0 30px;
+}
+.Rules p{
+	font-size: 24px;
+}
+
+/**/
+footer{
+	background: #301e46;
+}
+.footer_inner p{
+	padding: 50px 0;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+}
+
+

@@ -1,6 +1,6 @@
 # Olga-Aleksey-game-team
 
-The game “The Cat that walks by himself ”<br>
+The game “The Cat that Walks by Himself ”<br>
 
 1. The main character – The Cat.<br>
 
